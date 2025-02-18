@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <style>
+        body {
+            background-image: url('https://www.zdnet.com/a/img/resize/1697738f943bd0159939fcfc47d9e9885b454bfb/2023/07/28/d0b4d343-5450-447f-b6a0-2f3c0c8e6597/gettyimages-1397050811.jpg?auto=webp&width=1280');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            justify-content: center;
+            color: black;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .register-btn {
+            background-color: #28a745;
+            color: white;
+        }
+        .login-btn {
+            background-color: #007bff;
+            color: white;
+        }
+        .button-container button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Authentication</h1>
+    <div class="button-container">
+        <button class="register-btn" onclick="window.location.href= '/signup'">Register</button>
+        <button class="login-btn" onclick="window.location.href='/login'">Login</button>
+    </div>
+</body>
+</html>
